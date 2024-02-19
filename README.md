@@ -1,4 +1,4 @@
-# Machine Distributrice de Boissons Chaudes
+# Distributeur automatique de boisson chaude
 
 Bienvenue dans la Machine Distributrice de Boissons Chaudes, une application de démonstration pour commander des boissons chaudes!
 

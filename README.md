@@ -41,4 +41,4 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ---
 
-**Auteur : Votre Nom**
+**Auteur : CM**

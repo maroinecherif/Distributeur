@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distributeur", "Distributeur.csproj", "{A85E0032-8DAC-4BA9-B002-5B4D082A8780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributeur", "Distributeur.csproj", "{A85E0032-8DAC-4BA9-B002-5B4D082A8780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributeur.Tests", "..\TestProject1\Distributeur.Tests.csproj", "{F4B88DA6-4467-4268-82D1-240AE135854E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A85E0032-8DAC-4BA9-B002-5B4D082A8780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85E0032-8DAC-4BA9-B002-5B4D082A8780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85E0032-8DAC-4BA9-B002-5B4D082A8780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B88DA6-4467-4268-82D1-240AE135854E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B88DA6-4467-4268-82D1-240AE135854E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B88DA6-4467-4268-82D1-240AE135854E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B88DA6-4467-4268-82D1-240AE135854E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,5 +28,11 @@ namespace Distributeur.Services.Implementation
         {
             return _recipes.Find(r => r.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
+        public List<Recipe> Recipes => _recipes;
+        //public Task AddRecipeAsync(Recipe recipe)
+        //{
+        //    RecipeList.Add(recipe);
+        //    return Task.CompletedTask;
+        //}
     }
 }

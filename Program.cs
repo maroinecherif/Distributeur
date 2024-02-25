@@ -5,7 +5,10 @@ using Distributeur.Services.Implementation;
 var recipeRepository = new RecipeRepository();
 var drinkOrder = new DrinkOrderRepository(recipeRepository);
 
-Console.WriteLine("Bienvenue au distributeur automatique de boissons chaudes !");
+while (true)
+
+{
+    Console.WriteLine("Bienvenue au distributeur automatique de boissons chaudes !");
 
 
     Console.WriteLine("Choisissez une option :");
@@ -52,18 +55,19 @@ Console.WriteLine("Bienvenue au distributeur automatique de boissons chaudes !")
     }
 
 
-static void DisplayDrinkPrice(string drinkName, IDrinkOrderRepository drinkOrder)
-{
-    var order = new Order { DrinkName = drinkName };
+    static void DisplayDrinkPrice(string drinkName, IDrinkOrderRepository drinkOrder)
+    {
+        var order = new Order { DrinkName = drinkName };
 
-    try
-    {
-        decimal price = drinkOrder.GetDrinkPrice(order);
-        Console.WriteLine($"Le prix de {drinkName} est : {price:C}");
+        try
+        {
+            decimal price = drinkOrder.GetDrinkPrice(order);
+            Console.WriteLine($"Le prix de {drinkName} est : {price:C}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erreur : {ex.Message}");
+        }
     }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Erreur : {ex.Message}");
-    }
+
 }
-
